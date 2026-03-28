@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import pro1 from "../../assets/images/genpayshot.png";
+import pro2 from "../../assets/images/xrepublik.png";
+import pro3 from "../../assets/images/quickshipp.png";
+import pro4 from "../../assets/images/tekuvv.png";
+import pro5 from "../../assets/images/deadline.jfif";
+import pro6 from "../../assets/images/bookitt.png";
 
 const CardsSection = () => {
   const [hoveredId, setHoveredId] = useState(null);
@@ -10,7 +16,7 @@ const CardsSection = () => {
       category: "Event Ticketing",
       status: "Live",
       year: "2025",
-      image: "https://picsum.photos/seed/genpay/1200/800",
+      image: pro1,
       alt: "Genpay NG",
       color: "from-blue-500 to-blue-600",
     },
@@ -20,7 +26,7 @@ const CardsSection = () => {
       category: "Entertainment",
       status: "Development",
       year: "2024",
-      image: "https://picsum.photos/seed/xrepublik/1200/800",
+      image: pro2,
       alt: "X-republik",
       color: "from-purple-500 to-purple-600",
     },
@@ -30,7 +36,7 @@ const CardsSection = () => {
       category: "Logistics",
       status: "Live",
       year: "2024",
-      image: "https://picsum.photos/seed/quickship/1200/800",
+      image: pro3,
       alt: "QuickShip",
       color: "from-emerald-500 to-emerald-600",
     },
@@ -40,7 +46,7 @@ const CardsSection = () => {
       category: "Agency",
       status: "Live",
       year: "2023",
-      image: "https://picsum.photos/seed/tekuvo/1200/800",
+      image: pro4,
       alt: "Tekuvo",
       color: "from-orange-500 to-orange-600",
     },
@@ -50,7 +56,7 @@ const CardsSection = () => {
       category: "SaaS",
       status: "Development",
       year: "2023",
-      image: "https://picsum.photos/seed/bip/1200/800",
+      image: pro5,
       alt: "Bip Mockup",
       color: "from-pink-500 to-pink-600",
     },
@@ -60,7 +66,7 @@ const CardsSection = () => {
       category: "Hotel Management",
       status: "Development",
       year: "2022",
-      image: "https://picsum.photos/seed/bookit/1200/800",
+      image: pro6,
       alt: "Bookit Mockup",
       color: "from-cyan-500 to-cyan-600",
     },
@@ -148,7 +154,7 @@ const CardsSection = () => {
               I'm always working on new things. Check out my archive for a deeper dive into my process and older projects.
             </p>
           </div>
-          <a href="#" className="nav-pill px-12 py-4">Visit Github</a>
+          <a href="https://github.com/e-xxxxl" className="nav-pill px-12 py-4">Visit Github</a>
         </div>
       </div>
     </section>

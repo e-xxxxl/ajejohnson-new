@@ -6,7 +6,7 @@ const Services = () => {
     "Full-Stack Development",
     "Branding",
     "UX / UI Design",
-    "Cloud Architecture",
+    // "Cloud Architecture",
     "API Integration",
     "Design System"
   ];

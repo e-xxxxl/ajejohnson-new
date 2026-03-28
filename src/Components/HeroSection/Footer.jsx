@@ -26,15 +26,15 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <span className="text-[10px] font-mono text-gray-600 uppercase tracking-widest">Social</span>
               <div className="flex flex-col gap-2">
-                <a href="#" className="text-sm uppercase tracking-wider hover:text-gray-400 transition-colors">Instagram</a>
-                <a href="#" className="text-sm uppercase tracking-wider hover:text-gray-400 transition-colors">LinkedIn</a>
-                <a href="#" className="text-sm uppercase tracking-wider hover:text-gray-400 transition-colors">Twitter</a>
+                <a href="https://www.instagram.com/emmy_gram._/" className="text-sm uppercase tracking-wider hover:text-gray-400 transition-colors">Instagram</a>
+                <a href="https://www.linkedin.com/in/ajejohnson-emmanuel-8929902a0/" className="text-sm uppercase tracking-wider hover:text-gray-400 transition-colors">LinkedIn</a>
+                <a href="https://x.com/eajejohnson" className="text-sm uppercase tracking-wider hover:text-gray-400 transition-colors">Twitter</a>
               </div>
             </div>
             <div className="flex flex-col gap-4">
               <span className="text-[10px] font-mono text-gray-600 uppercase tracking-widest">Location</span>
               <div className="flex flex-col gap-2">
-                <p className="text-sm uppercase tracking-wider">Lagos, Nigeria</p>
+                <p className="text-sm uppercase tracking-wider">Kufuki Land</p>
                 <p className="text-sm uppercase tracking-wider text-gray-500">Remote (GMT+1)</p>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Footer = () => {
               © 2026 Ajejohnson Emmanuel
             </p>
             <p className="text-[10px] font-mono text-gray-600 uppercase tracking-widest">
-              Built with React & Tailwind
+              Built with love & Coffee
             </p>
           </div>
         </div>

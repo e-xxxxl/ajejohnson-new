@@ -4,8 +4,8 @@ const Experience = () => {
   const experiences = [
     { role: "Full-stack Developer", company: "Freelance", period: "2025 — Now" },
     { role: "Frontend Developer", company: "Tekuvo", period: "2023 — 2025" },
-    { role: "Web Developer", company: "QuickShip", period: "2022 — 2023" },
-    { role: "Junior Developer", company: "Genpay", period: "2021 — 2022" },
+    { role: "Web Developer",  period: "2022 — 2023" },
+    { role: "Junior Developer", period: "2021 — 2022" },
   ];
 
   return (

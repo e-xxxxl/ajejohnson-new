@@ -1,4 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
+import gif1 from "../../assets/images/gif1.gif";
+import gif2 from "../../assets/images/gif2.gif";
+import gif3 from "../../assets/images/gif3.gif";
+import gif4 from "../../assets/images/gif4.gif";
+import gif5 from "../../assets/images/gif5.gif";
 
 const MainSection = () => {
   const [currentGifIndex, setCurrentGifIndex] = useState(0);
@@ -6,11 +11,11 @@ const MainSection = () => {
   const sectionRef = useRef(null);
 
   const gifs = [
-    "https://picsum.photos/seed/gif1/800/800",
-    "https://picsum.photos/seed/gif2/800/800",
-    "https://picsum.photos/seed/gif3/800/800",
-    "https://picsum.photos/seed/gif4/800/800",
-    "https://picsum.photos/seed/gif5/800/800"
+    gif1,
+    gif2,
+    gif3,
+    gif4,
+    gif5,
   ];
 
   useEffect(() => {
@@ -81,7 +86,7 @@ const MainSection = () => {
           </h2>
 
           <p className="text-lg md:text-xl lg:text-2xl leading-relaxed font-light text-gray-400 max-w-xl mx-auto lg:mx-0">
-            I'm <span className="text-white font-medium">Ajejohnson Emmanuel</span>, a full-stack developer and <span className="text-white font-medium">Founder of Tekuvo</span>. I specialize in building modern web applications that turn complex ideas into seamless digital products.
+            I'm <span className="text-white font-medium">Ajejohnson Emmanuel</span>, a full-stack developer and <a href="https://tekuvo.com.ng" className="text-white font-medium" target="_blank" rel="noopener noreferrer">Founder of Tekuvo</a>. I specialize in building modern web applications that turn complex ideas into seamless digital products.
           </p>
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-4">

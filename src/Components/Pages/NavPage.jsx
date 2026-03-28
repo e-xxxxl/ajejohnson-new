@@ -19,7 +19,7 @@ const NavPage = () => {
         <CardsSection />
         <Services/>
         <Experience/>
-        <Awards/>
+        {/* <Awards/> */}
         <TicTacToe />
       </main>
       <Footer/>
