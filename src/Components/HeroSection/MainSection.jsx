@@ -40,7 +40,7 @@ const MainSection = () => {
     <section
       id="about"
       ref={sectionRef}
-      className="w-full min-h-screen bg-black text-white flex items-center justify-center px-4 py-24 md:py-40 overflow-hidden"
+      className="w-full min-h-screen bg-black text-white flex items-center justify-center px-4  md:py-20 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
         {/* Responsive GIF container */}

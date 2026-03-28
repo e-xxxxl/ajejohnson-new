@@ -129,7 +129,7 @@ const TicTacToe = () => {
   const winner = checkWinner(board);
 
   return (
-    <section id="fun" className="w-full bg-black py-24 md:py-40 px-4 border-t border-white/5 overflow-hidden">
+    <section id="fun" className="w-full bg-black py-14 md:py-20 px-4 border-t border-white/5 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32 items-center">
         <div className="flex flex-col gap-8 text-center lg:text-left">
           <div className="flex items-center gap-3 justify-center lg:justify-start">

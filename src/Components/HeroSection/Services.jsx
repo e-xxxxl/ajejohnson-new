@@ -12,7 +12,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="w-full bg-black py-24 md:py-40 px-4 border-t border-white/5 overflow-hidden">
+    <section className="w-full bg-black py-14 md:py-26 px-4 border-t border-white/5 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-16">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">

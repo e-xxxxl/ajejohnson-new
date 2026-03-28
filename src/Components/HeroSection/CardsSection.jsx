@@ -67,7 +67,7 @@ const CardsSection = () => {
   ];
 
   return (
-    <section id="works" className="w-full bg-black py-24 md:py-40 px-4 overflow-hidden">
+    <section id="works" className="w-full bg-black py-20 md:py-40 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-20 md:mb-32 flex flex-col md:flex-row md:items-end justify-between gap-8">
@@ -141,14 +141,14 @@ const CardsSection = () => {
         </div>
 
         {/* Footer */}
-        <div className="mt-32 md:mt-48 pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-12 text-center md:text-left">
+        <div className="mt-20 md:mt-30 pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-12 text-center md:text-left">
           <div className="flex flex-col gap-4 max-w-lg">
             <h4 className="text-xl md:text-2xl font-display uppercase text-white">Want to see more?</h4>
             <p className="text-gray-500 text-sm font-light leading-relaxed">
               I'm always working on new things. Check out my archive for a deeper dive into my process and older projects.
             </p>
           </div>
-          <a href="#" className="nav-pill px-12 py-4">View Archive</a>
+          <a href="#" className="nav-pill px-12 py-4">Visit Github</a>
         </div>
       </div>
     </section>
