@@ -19,6 +19,7 @@ const CardsSection = () => {
       image: pro1,
       alt: "Genpay NG",
       color: "from-blue-500 to-blue-600",
+      link: "https://genpay.ng",
     },
     {
       id: 2,
@@ -29,6 +30,7 @@ const CardsSection = () => {
       image: pro2,
       alt: "X-republik",
       color: "from-purple-500 to-purple-600",
+      link: "https://xrepublik.com",
     },
     {
       id: 3,
@@ -39,6 +41,7 @@ const CardsSection = () => {
       image: pro3,
       alt: "QuickShip",
       color: "from-emerald-500 to-emerald-600",
+      link: "https://quickship.africa",
     },
     {
       id: 4,
@@ -49,6 +52,7 @@ const CardsSection = () => {
       image: pro4,
       alt: "Tekuvo",
       color: "from-orange-500 to-orange-600",
+      link: "https://tekuvo.com.ng",
     },
     {
       id: 5,
@@ -59,6 +63,7 @@ const CardsSection = () => {
       image: pro5,
       alt: "Bip Mockup",
       color: "from-pink-500 to-pink-600",
+      link: "https://bip.ng",
     },
     {
       id: 6,
@@ -69,6 +74,7 @@ const CardsSection = () => {
       image: pro6,
       alt: "Bookit Mockup",
       color: "from-cyan-500 to-cyan-600",
+      link: "https://bookitt.com",
     },
   ];
 
@@ -137,9 +143,18 @@ const CardsSection = () => {
                     {mockup.category}
                   </span>
                   <div className="w-1 h-1 bg-white/10 rounded-full"></div>
-                  <button className="text-[10px] font-mono uppercase tracking-widest text-white hover:text-gray-400 transition-colors">
-                    View Case Study
-                  </button>
+                  <a
+  href={mockup.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`text-[10px] font-mono uppercase tracking-widest transition-colors ${
+    mockup.status === "Live"
+      ? "text-white hover:text-gray-400"
+      : "text-gray-600 cursor-not-allowed pointer-events-none"
+  }`}
+>
+  View Live
+</a>
                 </div>
               </div>
             </div>
@@ -151,7 +166,7 @@ const CardsSection = () => {
           <div className="flex flex-col gap-4 max-w-lg">
             <h4 className="text-xl md:text-2xl font-display uppercase text-white">Want to see more?</h4>
             <p className="text-gray-500 text-sm font-light leading-relaxed">
-              I'm always working on new things. Check out my archive for a deeper dive into my process and older projects.
+              I'm always working on new things. Check out my github for a deeper dive into my process and older projects.
             </p>
           </div>
           <a href="https://github.com/e-xxxxl" className="nav-pill px-12 py-4">Visit Github</a>

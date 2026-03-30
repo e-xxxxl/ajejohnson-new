@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import NavPage from './Components/Pages/NavPage'
+import { Analytics } from "@vercel/analytics/react"
 
 import { Route, Routes } from 'react-router'
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
     
-      
+      <Analytics />
       <Routes>
         <Route path="/" element={<NavPage />} />
         {/* <Route path="/section1" element={<Section1 />} /> */}

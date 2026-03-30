@@ -2,8 +2,8 @@ import React from 'react';
 
 const Marquee = () => {
   const techStacks = [
-    'React', 'JavaScript', 'Node.js', 'Python', 'TypeScript', 'Tailwind', 
-    'MongoDB', 'PostgreSQL', 'Docker', 'AWS', 'Next.js', 'Framer Motion'
+    'React', 'JavaScript', 'Node.js', 'Angular', 'TypeScript', 'Tailwind', 
+    'MongoDB', 'Supabase',  'Next.js', 'Php', 'mysql', 'Firebase'
   ];
 
   const marqueeItems = [...techStacks, ...techStacks];
